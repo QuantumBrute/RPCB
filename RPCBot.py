@@ -13,10 +13,10 @@ limitno = 30000 # Changes the maximum limit of posts to check
 print("Starting Bot...")
 
 reddit = praw.Reddit(client_id= LoginInfo.client_id,         
-					 client_secret= LoginInfo.client_secret,
-					 username= LoginInfo.username,
-					 password= LoginInfo.password,
-					 user_agent= LoginInfo.user_agent) # Login to reddit API
+		     client_secret= LoginInfo.client_secret,
+		     username= LoginInfo.username,
+		     password= LoginInfo.password,
+		     user_agent= LoginInfo.user_agent) # Login to reddit API
 
 
 print("Opening SQL database...")
