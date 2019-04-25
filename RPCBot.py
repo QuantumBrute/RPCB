@@ -1,3 +1,7 @@
+# ------------------------------------------
+# Writtern by Subhashis Suara / QuantumBrute
+# ------------------------------------------
+
 from psaw import PushshiftAPI
 import praw
 import sqlite3
